@@ -57,13 +57,37 @@ p{
 
 .amenities{
   text-align: center;
-  column-count: 3;
+/*  column-count: 3;*/
   margin: 0 auto;
   align-items: flex-start;
   display: block;
 }
 
-.button{
+/*.button {
+  background: #31CC31;
+  color: #000;
+  font-size: 38px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 1px solid #111;
+  text-align: center;
+  display: inline-block;
+  width: 250px;
+  height: 72px;
+  line-height: 74px;
+  vertical-align: middle;
+  box-shadow: #111 0 0 50px;
+  font-family: helvetica, arial, sans-serif;
+  cursor: pointer;
+}
+.button:hover {
+  background: #3DFF3D;
+}*/
 
+.checkboxes{
+  display: inline-block;
+  width: 100%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
