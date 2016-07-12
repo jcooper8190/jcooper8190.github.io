@@ -32,6 +32,19 @@ p{
   height: auto;
 }
 
+a:visited { 
+  text-decoration: none; 
+  color:#FFF; 
+}
+
+/*input[type="checkbox"] {
+    display:inline-block;
+    width: 10px;
+    height: 10px;
+}*/
+
+
+
 .top{
   background-color: #212121;
   padding: 20px;
@@ -63,26 +76,25 @@ p{
   display: block;
 }
 
-/*.button {
-  background: #31CC31;
+.button {
+  background: #FFF;
   color: #000;
-  font-size: 38px;
+  font-size: 16px;
   font-weight: bold;
   text-transform: uppercase;
-  border: 1px solid #111;
+  border: 3px solid #000;
   text-align: center;
   display: inline-block;
-  width: 250px;
-  height: 72px;
-  line-height: 74px;
-  vertical-align: middle;
-  box-shadow: #111 0 0 50px;
-  font-family: helvetica, arial, sans-serif;
+  width: 100px;
+  height: 30px;
+  vertical-align: top;
+  font-family: Proxima Nova W01, Apercu, Calibri, Helvetica Neue, Helvetica, sans-serif;
   cursor: pointer;
+  margin-top: 20px;
 }
 .button:hover {
-  background: #3DFF3D;
-}*/
+  background: #CCC;
+}
 
 .checkboxes{
   display: inline-block;
